@@ -24,6 +24,7 @@
     <ProjectGuid>{4e56a5eb-5ce6-429e-a7bb-4c86471e87b3}</ProjectGuid>
     <RootNamespace>stacktasks</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Sort_Stack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

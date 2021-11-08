@@ -38,8 +38,9 @@ void sortStack(stack<int>& firstStack) {
 
 	int size = firstStack.size();
 
-	while (true) {
+	while (result.size() != size) {
 		stack<int> CurrentResOne;
+
 		int sz = firstStack.size();
 
 		for (int i = 0; i < sz; i++) {
@@ -100,10 +101,6 @@ void sortStack(stack<int>& firstStack) {
 		result.push(lowest);
 		lowest = 9999999;
 		firstStack = CurrentResOne;
-		
-		if (result.size() == size) {
-			break;
-		}
 	}
 
 	int resSize = result.size();
