@@ -1,0 +1,14 @@
+﻿'stack_brackets.exe' (Win32): Loaded 'C:\Users\Marto\source\repos\DSA- 2021\DSA21\stack_brackets\Debug\stack_brackets.exe'. Symbols loaded.
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x4354 has exited with code 0 (0x0).
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'stack_brackets.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+The thread 0x2230 has exited with code 0 (0x0).
+The thread 0x4960 has exited with code 0 (0x0).
+The program '[19860] stack_brackets.exe' has exited with code 0 (0x0).
