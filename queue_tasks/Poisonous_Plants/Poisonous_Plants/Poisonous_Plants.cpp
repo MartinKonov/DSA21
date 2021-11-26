@@ -6,19 +6,26 @@ using namespace std;
 
 int poisonousPlants(vector<int> p) {
 
+	if (p.empty()) {
+		return 0;
+	}
+
 	int days_passed = 0;
 
 	queue<int> plants, survivors;
+
 
 	int sz_vec = p.size();
 	for (int i = 0; i < sz_vec; i++) {
 		plants.push(p[i]);
 	}
 
+	int last_front;
 	while (true) {
 		
 		queue<int> cpy_of_plants = plants;
-		int last_front = plants.front();
+
+		last_front = plants.front();
 
 		survivors.push(plants.front());
 		plants.pop();
@@ -57,7 +64,9 @@ int poisonousPlants(vector<int> p) {
 
 int main() {
 
-	vector<int> p = { 1, 1, 1 };
+	vector<int> p = { 1, 5, 4, 3, 2 };
+
+
 	//6 7 8
 	cout << poisonousPlants(p);
 
