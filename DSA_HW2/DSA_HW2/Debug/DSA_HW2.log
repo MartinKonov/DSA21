@@ -1,0 +1,4 @@
+﻿  tree_imp.cpp
+C:\Users\marto\source\repos\DSA_HW2\DSA_HW2\tree_imp.cpp(409): warning C4715: 'Tree::curEmployee': not all control paths return a value
+C:\Users\marto\source\repos\DSA_HW2\DSA_HW2\tree_imp.cpp(429): warning C4715: 'Tree::curEmployee': not all control paths return a value
+  DSA_HW2.vcxproj -> C:\Users\marto\source\repos\DSA_HW2\Debug\DSA_HW2.exe
